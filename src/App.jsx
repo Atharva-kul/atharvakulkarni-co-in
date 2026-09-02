@@ -1,7 +1,8 @@
-import NavBar from "./components/navbar"
-import Body from "./components/body"
+import NavBar from "./components/navbar";
+import Body from "./components/body";
+import GlassCard from "./components/glassCard";
 
-import './App.css'
+import "./App.css";
 
 function App() {
   
@@ -11,8 +12,9 @@ function App() {
       <div className="min-h-screen bg-[#EDF2FF]">
         <NavBar />
       
-        <main>
+        <main className="flex w-fu">
           <Body />
+          
         </main>
 
     </div>
