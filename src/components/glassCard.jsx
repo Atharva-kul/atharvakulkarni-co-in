@@ -9,7 +9,7 @@ function GlassCard() {
             backdrop-blur-xl
             border
             border-black/40
-            shadow-xl"></div>
+            shadow-xl"> hello world</div>
     )
 }
 
